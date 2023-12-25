@@ -1,0 +1,69 @@
+  body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color:lightgreen;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        #timetable {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #timetable th, #timetable td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        #timetable th {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+        .remove-btn {
+            background-color: #ff5757;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .remove-btn:hover {
+            background-color: #cc0000;
+        }
+        #addEventForm {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #333;
+        }
+        input {
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color:black;
+            color: #fff;
+            border: none;
+            padding: 10px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
